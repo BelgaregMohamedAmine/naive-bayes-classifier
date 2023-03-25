@@ -9,13 +9,21 @@ The project involves reading in emails from two directories, one containing spam
 The project includes several features, including:
 
 -Loading emails from a directory and preprocessing them
+
 -Splitting the data into training and testing sets
+
 -Converting the text data into numerical vectors using CountVectorizer
+
 -Training a Multinomial Naive Bayes classifier on the training data
+
 -Predicting the classification of the testing data using the trained classifier
+
 -Displaying the predictions and true labels for the testing data in a table
+
 -Calculating the prediction score for the testing data
+
 -Generating a confusion matrix to evaluate the performance of the classifier
+
 
 The project is implemented in Python using various libraries such as scikit-learn, pandas, and matplotlib. It is a useful example of how to apply NLP techniques to machine learning problems and how to evaluate the performance of a classifier using a confusion matrix. The code for the project is available on GitHub, making it accessible to anyone interested in learning how to implement a Naive Bayes classifier for email classification.
 
